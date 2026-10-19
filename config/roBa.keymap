@@ -139,10 +139,10 @@
 
         win_default_layer {
             bindings = <
-&lt 7 Q           &kp W           &kp E         &kp R                 &kp T                                               &kp Y        &kp U  &kp I      &kp O    &lt 9 P
-&kp A             &kp S           &kp D         &kp F                 &kp G        &kp LS(LG(S))           &kp F7         &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z             &kp X           &kp C         &kp V                 &kp B        &lt 7 TAB               &lt 7 F10      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_CONTROL F14  &lt 3 SPACE  &mt LEFT_SHIFT F15      &kp BACKSPACE  &lt 2 ENTER                             &kp LEFT_WIN
+&lt 7 Q           &kp W           &kp E         &kp R      &kp T                                               &kp Y        &kp U  &kp I      &kp O    &lt 9 P
+&kp A             &kp S           &kp D         &kp F      &kp G        &kp LS(LG(S))           &kp F7         &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z             &kp X           &kp C         &kp V      &kp B        &lt 7 TAB               &lt 7 F10      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 4 F14  &lt 3 SPACE  &mt LEFT_SHIFT F15      &kp BACKSPACE  &lt 2 ENTER                             &kp LEFT_WIN
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -181,10 +181,10 @@
 
         ctrl_layer {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                      &kp LC(Y)  &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &trans      &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans      &trans  &kp LC(N)  &kp LC(M)  &trans     &trans     &trans
-&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                      &trans
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                      &trans  &trans    &trans    &trans  &trans
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                              &trans
             >;
         };
 
