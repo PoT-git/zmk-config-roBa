@@ -48,7 +48,7 @@
     input-processors = <&zip_xy_scaler 7 4>, <&zip_temp_layer 8 60000>;
 
     drag_precision {
-        layers = <7>;
+        layers = <4 5 7>;
         input-processors = <&zip_xy_scaler 1 3>;
     };
 };
